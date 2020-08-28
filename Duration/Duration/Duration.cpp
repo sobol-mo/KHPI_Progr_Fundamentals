@@ -1,13 +1,14 @@
-/*
-	Расчет продолжительности выполнения того или иного действия в программе
+п»ї/*
+	Р Р°СЃС‡РµС‚ РїСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅРѕСЃС‚Рё РІС‹РїРѕР»РЅРµРЅРёСЏ С‚РѕРіРѕ РёР»Рё РёРЅРѕРіРѕ РґРµР№СЃС‚РІРёСЏ РІ РїСЂРѕРіСЂР°РјРјРµ
 */
 
 #include <iostream>
 #include <chrono>
 //#include "windows.h"
 
-#define M 10	// Количество циклов
-#define N 20	// Номер числа Фибоначчи
+#define M 10	// РљРѕР»РёС‡РµСЃС‚РІРѕ С†РёРєР»РѕРІ
+#define N 20	// РќРѕРјРµСЂ С‡РёСЃР»Р° Р¤РёР±РѕРЅР°С‡С‡Рё
+
 
 long fibonacci(unsigned n)
 {
@@ -16,7 +17,7 @@ long fibonacci(unsigned n)
 }
 int main()
 {
-	//const int arr_size = 10;	// Количество циклов
+	//const int arr_size = 10;	// РљРѕР»РёС‡РµСЃС‚РІРѕ С†РёРєР»РѕРІ
 	double dur_arr[M];
 	long F = 0;
 	double aver_dur = 0;
@@ -38,7 +39,7 @@ int main()
 		dur_arr[i] = duration.count();
 	}
 
-	// Вывод результата
+	// Р’С‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 	for (int i = 0; i < M; i++)
 	{
 		std::cout << "Duration "<< i << " = " << dur_arr[i] << "s\n";
