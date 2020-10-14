@@ -14,6 +14,7 @@ https://foxford.ru/wiki/informatika/dvumernye-massivy-v-c
 2 1 0 0
 2 2 1 0
 2 2 2 1
+
 */
 
 #include <iostream>
