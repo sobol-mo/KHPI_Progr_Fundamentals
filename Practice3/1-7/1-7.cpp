@@ -40,9 +40,13 @@ int main()
 {
 	setlocale(LC_ALL, "Ukrainian");
 	{// 1
-		int x = 3;
+		/*int x = 3;
 		int y = 2;
-		int z = 1;
+		int z = 1;*/
+		// більш наочний спосіб оголошення змінних:
+		uint8_t x = 0b00000011;	// 3
+		uint8_t y = 0b00000010;	// 2
+		uint8_t z = 0b00000001;	// 1
 		// 1 a)
 		printf("1 a) %d \n", x | y & z);		//3
 		//                     2   1
