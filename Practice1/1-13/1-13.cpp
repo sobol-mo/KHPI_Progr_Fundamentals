@@ -88,8 +88,8 @@ int main()
 	}
 	{// 9)
 		short a = 25, dec = 0, ed = 0;
-		dec = a / 10;		// dec = 5
-		ed = a % 10;		// ed = 2
+		dec = a / 10;		// dec = 2
+		ed = a % 10;		// ed = 5
 		a = ed * 10 + dec;	// 52
 		printf("9) a = %d \n", a);
 	}
