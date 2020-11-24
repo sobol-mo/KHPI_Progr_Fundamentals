@@ -6,7 +6,7 @@
 #include <chrono>
 //#include "windows.h"
 
-#define M 10	// Количество циклов
+#define M 100	// Количество циклов
 #define N 20	// Номер числа Фибоначчи
 
 
@@ -17,7 +17,7 @@ long fibonacci(unsigned n)
 }
 int main()
 {
-	//const int arr_size = 10;	// Количество циклов
+	//const int arr_size = 100;	// Количество циклов
 	double dur_arr[M];
 	long F = 0;
 	double aver_dur = 0;
